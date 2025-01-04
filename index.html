@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Kawtar lachhab</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <!---Header site-->
+<header>
+    <div class="logo"><span>K</span>AWTAR.<span></span></div>            
+          <ul class="navlist">
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#Experience" class="nav-link">Experience</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#Certification" class="nav-link">Certification</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>  
+          </ul>
+          <div id="menu-icon" class="bx bx-menu"></div>
+</header>
+
+<!---home section------------------------------------------------>
+<section id="home" class="home">
+    <div class="home-content scroll-scale">
+        <h2>Hello, my name is</h2>
+        <h1>kawtar lachhab</h1>
+        <div class="change-text">
+            <h3>And I'm</h3>
+            <h3>
+                <span style="--i:4;" data-text="Software Engineer">Software Engineer</span>
+                <span style="--i:3;" data-text="Full Stack Developer">Full Stack Developer</span>
+                <span style="--i:2;" data-text="Software Engineer">Software Engineer</span>
+                <span style="--i:1;" data-text="Full Stack Developer">Full Stack Developer</span>
+            </h3>
+        </div>
+        <p>I enjoy learning new skills and implementing them in real life!</p>
+
+
+       <!-- <div><h3>Let's talk <i class='bx bxs-hand-down'></i> </h3></div>-->
+        <div class="btn-sci">
+            <div><a href="" class="btn">Dowload CV <i class='bx bx-chevrons-down'></i></a></div>
+            <div class="sci">
+                <a href=""><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/kawtar-lachhab-7718231a6/"><i class='bx bxl-linkedin-square' ></i></a>
+               <!-- <a href=""><i class='bx bxl-facebook' ></i></a>-->
+                <!--<a href=""><i class='bx bxl-youtube' ></i></a>-->
+                <a href=""><i class='bx bx-envelope email-icon' ></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home-img scroll-scale">
+        <div class="img-box">
+            <img src="img/Java-preview-removebg-preview.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about scroll-scale">
+    <div class="img-about">
+        <img src="img/Java-preview-removebg-preview.png" alt="">
+    </div>
+    <div class="about-content">
+        <span>let me introduce myself</span>
+        <h2>About me</h2>
+        <h3>Software Engineer <i class='bx bxs-graduation'></i></h3>
+       <p>Hello! My name is Kawtar Lachhab, and I am a recent graduate in Computer and Network Engineering with 
+        a specialization in MIAGE from the Moroccan School of Engineering Sciences (EMSI).
+        I am a creative, punctual, and goal-oriented individual with strong communication and organizational skills. </p>
+        <p id="read-more-content" class="hidden">
+            My current focus is on Java development, and I also have a keen interest in agile methodologies 
+            and project management.
+          </p>
+          <p id="activities" class="hidden">
+            Here are a few activities that I enjoy: Coding, writing articles, and practicing a team sport.
+          </p>
+          
+          <div class="btn-box">
+            <a href="javascript:void(0);" onclick="toggleContent()" class="btn" id="toggle-btn">Read More</a>
+          </div>
+    </div>
+</section>
+
+
+
+<section id="Experience" class="experience">
+    <div class="main-text scroll-scale">
+        <span>Internships And Practical Contributions</span>
+        <h2>professional experience</h2>
+    </div>
+    <div class="timeline">
+        <div class="timeline-item scroll-scale">
+            <div class="timeline-content">
+            <h3>Project Engineer</h3>
+            <span class="entreprise"> Societe Generale African Business Services</span>
+            <span class="date">Casablanca | February 2024 - August 2024</span>
+            <p id="job-description1" class="job-description hidden">
+                Analyze and study the existing system, Model the target processes
+                Develop functional and technical specifications
+                Implement an MVP version of the solution.
+                Agile/SCRUM, JIRA, Git, Java/JEE, React, REST, Spring, SQL, UML
+            </p>
+            <button onclick="toggleDescription('job-description1', this)">Role Details</button>
+            </div>
+        </div>
+
+        <div class="timeline-item scroll-scale">
+            <div class="timeline-content">
+            <h3>Full-stack Developer</h3>
+            <span class="entreprise">Capgemini Engineering</span>
+            <span class="date">Casablanca | July 2023 - September 2023</span>
+            <p id="job-description2" class="job-description hidden">
+                Design and develop the assigned user stories
+                Actively participate in the team's Agile rituals
+                Discover and document technical and functional requirements.
+                Agile/SCRUM, JIRA, Git, Java/JEE, HTML, SQL, CSS, Angular, MySQL
+            </p>
+            <button onclick="toggleDescription('job-description2', this)">Role Details</button>
+            </div>
+        </div>
+
+        <div class="timeline-item scroll-scale">
+            <div class="timeline-content">
+            <h3>Full-stack Developer</h3>
+            <span class="entreprise">Direction Générale de la Météorologie</span>
+            <span class="date">Casablanca | April 2022 - June 2022</span>
+            <p id="job-description3" class="job-description hidden">
+                Collect and analyze business requirements
+                Develop functional and technical specifications
+                Implement identified features.
+                NodeJS, Express.js, React, HTML, CSS, SQL, MySQL, Postman
+            </p>
+            <button onclick="toggleDescription('job-description3', this)">Role Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+</section-->
+<section id="skills" class="skills">
+    <div class="main-text scroll-scale">
+        <span>Technical and professional</span>
+        <h2>My Skills</h2>
+    </div>
+<div class="skills-main ">
+    <div class="skill-left scroll-scale">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+            <div class="info">
+                <p>JAVA</p>
+                <p>90%</p>
+            </div>
+            <div class="bar">
+                <span class="java"></span>    
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>Angular</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="angular"></span>    
+            </div>
+        </div>
+         <div class="skill-bar">
+            <div class="info">
+                <p>React</p>
+                <p>60%</p>
+            </div>
+            <div class="bar">
+                <span class="react"></span>    
+            </div>
+        </div>
+                <div class="skill-bar">
+            <div class="info">
+                <p>Spring Boot</p>
+                <p>85%</p>
+            </div>
+            <div class="bar">
+                <span class="spring"></span>    
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>SCRUM</p>
+                <p>90%</p>
+            </div>
+            <div class="bar">
+                <span class="scrum"></span>    
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>Git</p>
+                <p>90%</p>
+            </div>
+            <div class="bar">
+                <span class="git"></span>    
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>JIRA</p>
+                <p>90%</p>
+            </div>
+            <div class="bar">
+                <span class="jira"></span>    
+            </div>
+        </div>
+         <div class="skill-bar">
+            <div class="info">
+                <p>Docker</p>
+                <p>80%</p>
+            </div>
+            <div class="bar">
+                <span class="docker"></span>    
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>Cloud (Microsoft Azure)</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="cloud"></span>    
+            </div>
+        </div>
+    </div>
+    <div class="skill-right scroll-scale">
+        <h3>professional Skills</h3>
+         <div class="professional">
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                   <big>90%</big>
+                   <small>Team Work</small>
+                </div>
+            </div>  
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                   <big>90%</big>
+                   <small>Communication</small>
+                </div>
+            </div> 
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                   <big>90%</big>
+                   <small>Adaptability</small>
+                </div>
+            </div>  
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                   <big>90%</big>
+                   <small>Autonomy</small>
+                </div>
+            </div>  
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="55"></div>
+                <div class="text">
+                   <big>55%</big>
+                   <small>Project Management</small>
+                </div>
+            </div>    
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="70"></div>
+                <div class="text">
+                   <big>70%</big>
+                   <small>Creativity</small>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+</section>
+<section id="Certification" class="portfolio">
+    <div class="main-text scroll-scale">
+        <span>Certified Achievements</span>
+        <h2>Certification</h2>
+    </div>
+    <div class="container">
+      <!----  <div class="fillter-btn">
+            <button class="btn1">All</button>
+            <button class="btn1">SCRUM</button>
+            <button class="btn1">Java</button>
+            <button class="btn1">React</button>
+            <button class="btn1">Cloud</button>
+        </div>-->
+        <div class="portfolio-gallery">
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/cours-de-java.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Java</h3>
+                    <P> Building Scalable Java Microservices with Spring Boot and Spring Cloud
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/9TM795VYAP8Y"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/react-must-be-in-scope-when-using-jsx.jpeg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>React</h3>
+                    <P>Full-Stack Web Development with React</P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/Y56GG68ZFQ64"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/devops-formation-certification-removebg-preview.png" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>DevOps</h3>
+                    <P>DevOps, Cloud, and Agile Foundations
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/MT5ECS699B5J"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img  src="img/processus-1024x421.png"">
+                </div>
+                <div class="port-content">
+                    <h3>SCRUM</h3>
+                    <P>Introduction to the SCRUM MASTER
+                    </P>
+                    <a href="https://coursera.org/verify/UJMJ1ST1OS50"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/Agile-Development-scaled-1566x1044.jpeg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Agile</h3>
+                    <P>Introduction to Agile Developement and Scrum
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/MT5ECS699B5J"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/Cloud.jpeg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Cloud</h3>
+                    <P>Introductionn to Cloud Computing
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/MT5ECS699B5J"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/develop-android-application-using-java-or-kotlin-in-android-studio.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Java Android</h3>
+                    <P>Java For Android 
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/MT5ECS699B5J"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="port-box scroll-scale">
+                <div class="port-img">
+                    <img src="img/python_ml_header.png" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Python</h3>
+                    <P>Machine Learning with Python
+                    </P>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/MT5ECS699B5J"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact ">
+    <div class="main-text scroll-scale">
+        <span>Ask me question</span>
+        <h2>Contact me</h2>
+    </div>
+    <form action="" class="scroll-bottom">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Adress">
+        <input type="text" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="btn-box formBtn">
+            <button class="btn">Send Message</button>
+        </div>
+    </form>
+</section>
+
+
+<footer>
+    <p class="scroll-scale">Copyright &Copy; 2025 by Kawtar lachhab || All Right Reserved.</p>
+    <a href="#home"><i class='bx bxs-up-arrow'></i></a>
+</footer>
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
